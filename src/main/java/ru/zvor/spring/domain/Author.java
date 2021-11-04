@@ -1,9 +1,11 @@
 package ru.zvor.spring.domain;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor
 @Data
 public class Author {
-    private int id;
-    private String name;
+    private final long id;
+    private final String name;
 }
