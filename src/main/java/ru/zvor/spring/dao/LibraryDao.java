@@ -17,4 +17,5 @@ public interface LibraryDao {
     public List<Author> getAllAuthorByBookId(long id);
     public void deleteByBookId (long book_id);
     public void deleteByAuthorId (long author_id);
+
 }

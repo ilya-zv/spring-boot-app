@@ -58,6 +58,4 @@ public class ShellServiceImpl {
         dao.deleteByAuthorId(id);
     }
 
-
-
 }
