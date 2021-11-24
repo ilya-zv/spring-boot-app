@@ -1,21 +1,19 @@
+/*
 package ru.zvor.spring.service;
 
-import com.sun.el.stream.Stream;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
-import ru.zvor.spring.dao.LibraryDao;
-import ru.zvor.spring.domain.Author;
-import ru.zvor.spring.domain.Book;
-
-import java.util.Arrays;
+import ru.zvor.spring.repositories.LibraryDao;
+import ru.zvor.spring.models.Author;
+import ru.zvor.spring.models.Book;
 
 @ShellComponent
-public class ShellServiceImpl {
+public class ShellService {
 
     private LibraryDao dao;
     private IOService ioService;
 
-    public ShellServiceImpl(LibraryDao dao, IOService ioService) {
+    public ShellService(LibraryDao dao, IOService ioService) {
         this.dao = dao;
         this.ioService = ioService;
     }
@@ -59,3 +57,4 @@ public class ShellServiceImpl {
     }
 
 }
+*/
